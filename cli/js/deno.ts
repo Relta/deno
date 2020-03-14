@@ -8,7 +8,17 @@ export {
   writeAll,
   writeAllSync
 } from "./buffer.ts";
-export { build, OperatingSystem, Arch } from "./build.ts";
+export {
+  lookup,
+  lookupSync,
+  resolve,
+  resolveSync,
+  resolve4,
+  resolve4Sync,
+  resolve6,
+  resolve6Sync
+} from "./ops/dns/index.ts";
+export {build, OperatingSystem, Arch} from "./build.ts";
 export { chmodSync, chmod } from "./ops/fs/chmod.ts";
 export { chownSync, chown } from "./ops/fs/chown.ts";
 export { transpileOnly, compile, bundle } from "./compiler/api.ts";

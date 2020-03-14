@@ -25,6 +25,7 @@ pub mod compilers;
 pub mod deno_dir;
 pub mod diagnostics;
 mod disk_cache;
+pub mod dns;
 mod file_fetcher;
 pub mod flags;
 mod fmt;

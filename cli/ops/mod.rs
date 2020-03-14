@@ -9,6 +9,7 @@ pub use dispatch_minimal::minimal_op;
 pub use dispatch_minimal::MinimalOp;
 
 pub mod compiler;
+pub mod dns;
 pub mod errors;
 pub mod fetch;
 pub mod fs;
